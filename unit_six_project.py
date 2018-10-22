@@ -2,9 +2,26 @@ def choose():
     number = int(input("Choose any number, it must be greater than or equal to two"))
     number>2
     return True
-else:
-    return False
+
+
+def main ():
+    listofnumbers = []
+    for x in range(2, 20):
+        listofnumbers.append(x)
+    print(listofnumbers)
+    primenumbers = []
+    primenumbers.append(listofnumbers[0])
+    print(primenumbers)
+    for prime in listofnumbers:
+        if % (primenumbers[0]) =/= 0
+        return True
+    else:
+        return False
 
 
 
-listofnumbers = [2, 3, 4, 5, 6]
+
+    listofnumbers.remove(listofnumbers % primenumbers[0])
+    print(primenumbers)
+
+main()
